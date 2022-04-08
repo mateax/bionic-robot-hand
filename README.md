@@ -17,11 +17,10 @@ Bionic robot hand prototype – controlled by Exoskeleton for handling hazardous
 
 
 ## How it works?
-Radar detects objects using HC – SR04 Ultrasonic Sensor in the range of 30 cm and 180 degrees, and plots results on a graphical display.
+The Arduino microcontroller reads values from a potentiometer located on each finger of the exoskeleton and converts them into values for controlling servo motors on the bionic arm. In this way, the movements of the bionic hand are controlled by using exoskeletons pulled over the arm.
 
-Control and detection was achieved using the Arduino, and a graphical radar display of the obtained values of distance and angle from the target object is realized in the development environment Processing
 ## Circuit
-According to the circuit diagram, attach the HC–SR04 Ultrasonic Sensor to a servo motor,and hook them up to an Arduino board.
+According to the circuit diagram, connect potentiometers and servo motors to the Arduino board.
 
 Components used: 
 * Arduino Nano
@@ -31,8 +30,7 @@ Components used:
 * wires 
 
 ## Arduino code
-Sweeps the servo back and forth in the range od 180 degrees.
-After every step, it will read the distance off the ultrasonic sensor and write the value to Serial.
+After each step of the potentiometer , it will read the analog value, and with PWM modulation and map function convert it to a value suitable for servomotors.
 
 
 
