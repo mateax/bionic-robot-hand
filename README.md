@@ -33,4 +33,8 @@ Components used:
 After each step of the potentiometer , it will read the analog value, and with PWM modulation and map function convert it to a value suitable for servomotors.
 
 
+  [![HitCount](https://hits.dwyl.com/mateax/bionic-robot-hand.svg?style=flat-square)](http://hits.dwyl.com/mateax/bionic-robot-hand)
+  [![HitCount](https://hits.dwyl.com/mateax/bionic-robot-hand.svg?style=flat-square&show=unique)](http://hits.dwyl.com/mateax/bionic-robot-hand)
+
+
 
