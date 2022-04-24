@@ -34,7 +34,7 @@ After each step of the potentiometer , it will read the analog value, and with P
 
 
   [![HitCount](https://hits.dwyl.com/mateax/bionic-robot-hand.svg?style=flat-square)](http://hits.dwyl.com/mateax/bionic-robot-hand)
-  [![HitCount](https://hits.dwyl.com/mateax/bionic-robot-hand.svg?style=flat-square&show=unique)](http://hits.dwyl.com/mateax/bionic-robot-hand)
+  
 
 
 
